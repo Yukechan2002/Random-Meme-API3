@@ -1,0 +1,51 @@
+/* Styles for the meme container */
+
+body{
+   background-color: #f0f0f0;  
+}
+.container {
+    text-align: center;
+    padding: 20px;
+    background-color: #f0f0f0; /* Light gray background */
+}
+
+/* Styles for the meme image */
+.img-size {
+    height: 420px;
+    width: 420px;
+    padding: 10px;
+    border: 5px solid #333; /* Dark gray border */
+     background-color: #f0f0f0;
+}
+
+/* Styles for the heading */
+.head {
+    margin-bottom: 20px;
+    color: #333; /* Dark gray text color */
+}
+
+/* Styles for the button */
+.btn-danger {
+    background-color: #dc3545; /* Red background */
+    border-color: #dc3545; /* Red border color */
+    color: #fff; /* White text color */
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+
+/* Styles for the button hover effect */
+.btn-danger:hover {
+    background-color: #c82333; /* Darker red background */
+    border-color: #bd2130; /* Darker red border color */
+}
+
+/* Responsive CSS for smaller screens */
+@media (max-width: 768px) {
+    /* Adjusting the padding for the button */
+    .btn-danger {
+        padding: 8px 16px;
+    }
+}
